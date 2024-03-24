@@ -1,0 +1,99 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 24px;
+    padding-bottom: 72px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    gap: 64px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 60vw;
+}
+
+.box  {
+    height: 120px;
+    width: 120px;
+    border: 2px solid blue;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.container {
+    flex-basis: 125px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 72px 0px;
+}
+
+.quote-text {
+    max-width: 60vw;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote p {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 24px;
+    text-align: center;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    padding: 72px 0px;
+}
+
+.action-card {
+    background-color: #3882F6;
+    min-width: 60vw;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 92px;
+}
+
+button {
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    background: #3882F6;
+    padding: 8px 24px;
+}
